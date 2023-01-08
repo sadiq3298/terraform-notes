@@ -1,0 +1,18 @@
+terraform:
+
+1. first step is to init
+2. second step is plan
+3. you need to know about beckend 
+4. what kind of version you are using at terraform 
+5. what kind of provider is that, i mean as a azure you have to inform that azure is the provider you are using at the terraform.
+
+6. client id, subcription id, secret key and all the initial information is found on the azure active directory under application services. 
+
+7. tf.vars is basically the storage of the variables on the terraform which will be used for multiple purpose. 
+
+subrciptionid = var.subscription_id
+tenantid = var.tenant_id
+cliendsecret = var.client_secret
+client_id = var.client_id
+
+8. workspace is maintained by statefile.
